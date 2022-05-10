@@ -8,12 +8,7 @@ import io.ktor.server.plugins.cachingheaders.*
 import io.ktor.server.plugins.compression.*
 import net.perfectdreams.randomroleplaypictures.backend.plugins.configureRouting
 import net.perfectdreams.randomroleplaypictures.backend.routes.RoleplayRoute
-import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.AttackRoleplayPictures
-import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.DanceRoleplayPictures
-import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.HeadPatRoleplayPictures
-import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.HighFiveRoleplayPictures
-import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.HugRoleplayPictures
-import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.SlapRoleplayPictures
+import net.perfectdreams.randomroleplaypictures.backend.utils.pictures.*
 import kotlin.concurrent.thread
 
 class RandomRoleplayPictures {
@@ -23,7 +18,8 @@ class RandomRoleplayPictures {
         RoleplayRoute(HighFiveRoleplayPictures),
         RoleplayRoute(SlapRoleplayPictures),
         RoleplayRoute(AttackRoleplayPictures),
-        RoleplayRoute(DanceRoleplayPictures)
+        RoleplayRoute(DanceRoleplayPictures),
+        RoleplayRoute(KissRoleplayPictures)
     )
 
     private val typesToCache = listOf(

@@ -5,15 +5,27 @@ import net.perfectdreams.randomroleplaypictures.common.data.api.AnimeSource
 
 object HighFiveRoleplayPictures : RoleplayPictures("high-five") {
     init {
-        picture("high-five-1.gif", BothMatchType)
-        picture("high-five-2.gif", BothMatchType)
-        picture("high-five-3.gif", BothMatchType)
+        picture("high-five-1.gif", BothMatchType) {
+            source = AnimeSource("Fairy Tail")
+        }
+        picture("high-five-2.gif", BothMatchType) {
+            source = AnimeSource("A Nova Onda do Kronk")
+        }
+        picture("high-five-3.gif", BothMatchType) {
+            source = AnimeSource("Bleach")
+        }
         picture("high-five-4.gif", BothMatchType) {
             source = AnimeSource("No Game No Life")
         }
-        picture("high-five-5.gif", BothMatchType)
-        picture("high-five-6.gif", BothMatchType)
-        picture("high-five-7.gif", BothMatchType)
+        picture("high-five-5.gif", BothMatchType) {
+            source = AnimeSource("Fairy Tail")
+        }
+        picture("high-five-6.gif", BothMatchType) {
+            source = AnimeSource("Uta no Prince-sama")
+        }
+        picture("high-five-7.gif", BothMatchType) {
+            source = AnimeSource("Hora de Aventura")
+        }
         picture("high-five-8.gif", BothMatchType) {
             source = AnimeSource("Dragon Ball")
         }
@@ -21,14 +33,30 @@ object HighFiveRoleplayPictures : RoleplayPictures("high-five") {
             source = AnimeSource("One Piece")
         }
 
-        picture("high-five-1.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-2.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-3.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-4.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-5.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-6.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-7.gif", FemaleXFemaleGenderMatchType)
-        picture("high-five-8.gif", FemaleXFemaleGenderMatchType)
+        picture("high-five-1.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Hello! Kiniro Mosaic")
+        }
+        picture("high-five-2.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("GA Geijutsuka Art Design Class")
+        }
+        picture("high-five-3.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Working!!")
+        }
+        picture("high-five-4.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Locodol")
+        }
+        picture("high-five-5.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Boku wa Tomodachi ga Sukunai (Haganai)")
+        }
+        picture("high-five-6.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Mitsuboshi Colors")
+        }
+        picture("high-five-7.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Working!!")
+        }
+        picture("high-five-8.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Working!!")
+        }
         picture("high-five-9.gif", FemaleXFemaleGenderMatchType) {
             source = AnimeSource("Harukana Receive")
         }
@@ -45,27 +73,49 @@ object HighFiveRoleplayPictures : RoleplayPictures("high-five") {
             source = AnimeSource("Sewayaki Kitsune no Senko-san")
         }
 
-        picture("high-five-1.gif", MaleXFemaleGenderMatchType)
+        picture("high-five-1.gif", MaleXFemaleGenderMatchType) {
+            source = AnimeSource("Fairy Tail")
+        }
         picture("high-five-2.gif", MaleXFemaleGenderMatchType) {
             source = AnimeSource("Fairy Tail")
         }
-        picture("high-five-3.gif", MaleXFemaleGenderMatchType)
-        picture("high-five-4.gif", MaleXFemaleGenderMatchType)
-        picture("high-five-5.gif", MaleXFemaleGenderMatchType){
+        picture("high-five-3.gif", MaleXFemaleGenderMatchType) {
+            source = AnimeSource("Yuru Yuri")
+        }
+        picture("high-five-4.gif", MaleXFemaleGenderMatchType) {
+            source = AnimeSource("Clannad")
+        }
+        picture("high-five-5.gif", MaleXFemaleGenderMatchType) {
             source = AnimeSource("Boku Dake Ga Inai Machi")
         }
 
-        picture("high-five-1.gif", MaleXMaleGenderMatchType)
-        picture("high-five-2.gif", MaleXMaleGenderMatchType)
-        picture("high-five-3.gif", MaleXMaleGenderMatchType)
+        picture("high-five-1.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Soul Eater")
+        }
+        picture("high-five-2.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Boruto: Naruto Next Generations")
+        }
+        picture("high-five-3.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("The Last: Naruto the Movie")
+        }
         picture("high-five-4.gif", MaleXMaleGenderMatchType) {
             source = AnimeSource("Hunter x Hunter")
         }
-        picture("high-five-5.gif", MaleXMaleGenderMatchType)
-        picture("high-five-6.gif", MaleXMaleGenderMatchType)
-        picture("high-five-7.gif", MaleXMaleGenderMatchType)
-        picture("high-five-8.gif", MaleXMaleGenderMatchType)
-        picture("high-five-9.gif", MaleXMaleGenderMatchType)
+        picture("high-five-5.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Naruto")
+        }
+        picture("high-five-6.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Haikyuu")
+        }
+        picture("high-five-7.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Naruto Shippuden")
+        }
+        picture("high-five-8.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Nanatsu No Taizai")
+        }
+        picture("high-five-9.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("LEGO Batman")
+        }
         picture("high-five-10.gif", MaleXMaleGenderMatchType) {
             source = AnimeSource("Sword Art Online")
         }
@@ -109,6 +159,8 @@ object HighFiveRoleplayPictures : RoleplayPictures("high-five") {
         picture("high-five-4.gif", GenericMatchType) {
             source = AnimeSource("Pokemon")
         }
-        picture("high-five-5.gif", GenericMatchType)
+        picture("high-five-5.gif", GenericMatchType) {
+            source = AnimeSource("Pokemon")
+        }
     }
 }

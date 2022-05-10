@@ -71,6 +71,15 @@ class RandomRoleplayPicturesClient(
         )
     }
 
+    suspend fun kiss(gender1: Gender, gender2: Gender): PictureResponse {
+        return Json.decodeFromString(
+            http.get("$baseUrl/api/v1/actions/kiss") {
+                parameter("gender1", gender1.toString())
+                parameter("gender2", gender2.toString())
+            }.bodyAsText()
+        )
+    }
+
     override fun close() {
         http.close()
     }
