@@ -23,7 +23,7 @@ object KissRoleplayPictures : RoleplayPictures("kiss") {
         picture("Amai Choubatsu.gif", BothMatchType) {
             source = AnimeSource("Amai Choubatsu")
         }
-        picture("Como Treinar o Seu DragÃ£o.gif", BothMatchType) {
+        picture("Como Treinar o Seu Dragao.gif", BothMatchType) {
             source = AnimeSource("How to Train your Dragon")
         }
         picture("Darling In The FranXX.gif", BothMatchType) {
