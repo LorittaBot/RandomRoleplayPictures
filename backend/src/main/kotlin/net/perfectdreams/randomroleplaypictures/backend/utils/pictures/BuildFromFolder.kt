@@ -3,27 +3,27 @@ package net.perfectdreams.randomroleplaypictures.backend.utils.pictures
 import java.io.File
 
 fun main() {
-    File("L:\\LorittaAssets\\assets_folder\\assets\\actions\\kiss\\generic").listFiles()?.forEach {
+    File("C:\\Users\\Leonardo\\Documents\\IdeaProjects\\RandomRoleplayPictures\\backend\\src\\main\\resources\\actions\\kiss\\generic").listFiles()?.forEach {
         println("picture(\"${it.name}\", GenericMatchType)")
     }
 
-    File("L:\\LorittaAssets\\assets_folder\\assets\\actions\\kiss\\both").listFiles()?.forEach {
+    File("C:\\Users\\Leonardo\\Documents\\IdeaProjects\\RandomRoleplayPictures\\backend\\src\\main\\resources\\actions\\kiss\\both").listFiles()?.forEach {
         println("picture(\"${it.name}\", BothMatchType)")
     }
 
-    File("L:\\LorittaAssets\\assets_folder\\assets\\actions\\kiss\\male_x_male").listFiles()?.forEach {
+    File("C:\\Users\\Leonardo\\Documents\\IdeaProjects\\RandomRoleplayPictures\\backend\\src\\main\\resources\\actions\\kiss\\male-x-male").listFiles()?.forEach {
         println("picture(\"${it.name}\", MaleXMaleGenderMatchType)")
     }
 
-    File("L:\\LorittaAssets\\assets_folder\\assets\\actions\\kiss\\male_x_female").listFiles()?.forEach {
+    File("C:\\Users\\Leonardo\\Documents\\IdeaProjects\\RandomRoleplayPictures\\backend\\src\\main\\resources\\actions\\kiss\\male-x-female").listFiles()?.forEach {
         println("picture(\"${it.name}\", MaleXFemaleGenderMatchType)")
     }
 
-    File("L:\\LorittaAssets\\assets_folder\\assets\\actions\\kiss\\female_x_male").listFiles()?.forEach {
+    File("C:\\Users\\Leonardo\\Documents\\IdeaProjects\\RandomRoleplayPictures\\backend\\src\\main\\resources\\actions\\kiss\\female-x-male").listFiles()?.forEach {
         println("picture(\"${it.name}\", FemaleXMaleGenderMatchType)")
     }
 
-    File("L:\\LorittaAssets\\assets_folder\\assets\\actions\\kiss\\female_x_female").listFiles()?.forEach {
+    File("C:\\Users\\Leonardo\\Documents\\IdeaProjects\\RandomRoleplayPictures\\backend\\src\\main\\resources\\actions\\kiss\\female-x-female").listFiles()?.forEach {
         println("picture(\"${it.name}\", FemaleXFemaleGenderMatchType)")
     }
 }

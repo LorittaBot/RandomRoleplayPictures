@@ -1,10 +1,13 @@
 package net.perfectdreams.randomroleplaypictures.backend.utils.pictures
 
 import net.perfectdreams.randomroleplaypictures.backend.utils.RoleplayPictures
+import net.perfectdreams.randomroleplaypictures.common.data.api.AnimeSource
 
 object HugRoleplayPictures : RoleplayPictures("hug") {
     init {
-        picture("hug-1.gif", BothMatchType)
+        picture("hug-1.gif", BothMatchType) {
+            source = AnimeSource("Naruto Shippuden")
+        }
         picture("hug-2.gif", BothMatchType)
         picture("hug-3.gif", BothMatchType)
         picture("hug-4.gif", BothMatchType)
