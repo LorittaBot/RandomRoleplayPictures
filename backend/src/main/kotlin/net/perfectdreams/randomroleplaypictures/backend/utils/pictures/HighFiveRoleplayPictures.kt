@@ -27,7 +27,7 @@ object HighFiveRoleplayPictures : RoleplayPictures("high-five") {
             source = AnimeSource("Hora de Aventura")
         }
         picture("high-five-8.gif", BothMatchType) {
-            source = AnimeSource("Dragon Ball")
+            source = AnimeSource("Dragon Ball Super")
         }
         picture("high-five-9.gif", BothMatchType) {
             source = AnimeSource("One Piece")
