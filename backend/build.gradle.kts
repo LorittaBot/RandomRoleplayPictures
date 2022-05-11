@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm")
     kotlin("plugin.serialization")
+    id("com.google.cloud.tools.jib") version libs.versions.jib
 }
 
 dependencies {
@@ -16,4 +17,23 @@ dependencies {
 
     // Logging
     api("ch.qos.logback:logback-classic:1.3.0-alpha14")
+}
+
+jib {
+    container {
+        ports = listOf("8080")
+    }
+
+    to {
+        image = "ghcr.io/lorittabot/random-roleplay-pictures"
+
+        auth {
+            username = System.getProperty("DOCKER_USERNAME") ?: System.getenv("DOCKER_USERNAME")
+            password = System.getProperty("DOCKER_PASSWORD") ?: System.getenv("DOCKER_PASSWORD")
+        }
+    }
+
+    from {
+        image = "openjdk:17-slim-bullseye"
+    }
 }
