@@ -4,7 +4,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      - cinnamon
+      - main
 
 env:
   DOCKER_USERNAME: "${{ github.actor }}"
