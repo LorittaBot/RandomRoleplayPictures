@@ -43,7 +43,7 @@ object SlapRoleplayPictures : RoleplayPictures("slap") {
         }
 
         picture("gif_187.gif", MaleXFemaleGenderMatchType) {
-            source = AnimeSource("Another!")
+            source = AnimeSource("Chuunibyou demo Koi ga Shitai!")
         }
         picture("gif_188.gif", MaleXFemaleGenderMatchType) {
             source = AnimeSource("Elfen Lied")
