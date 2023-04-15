@@ -2,8 +2,8 @@ package net.perfectdreams.randomroleplaypictures.backend
 
 import io.ktor.http.*
 import io.ktor.server.application.*
+import io.ktor.server.cio.*
 import io.ktor.server.engine.*
-import io.ktor.server.netty.*
 import io.ktor.server.plugins.cachingheaders.*
 import io.ktor.server.plugins.compression.*
 import net.perfectdreams.randomroleplaypictures.backend.plugins.configureRouting
@@ -31,7 +31,7 @@ class RandomRoleplayPictures {
     )
 
     fun start() {
-        val server = embeddedServer(Netty, 8080) {
+        val server = embeddedServer(CIO, 8080) {
             // Enables gzip and deflate compression
             install(Compression)
 

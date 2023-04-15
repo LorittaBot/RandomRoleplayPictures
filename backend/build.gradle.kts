@@ -9,8 +9,7 @@ dependencies {
     implementation("commons-codec:commons-codec:1.15")
 
     implementation(libs.kotlinx.serialization.json)
-
-    implementation(libs.ktor.server.netty)
+    implementation(libs.ktor.server.cio)
     implementation(libs.ktor.server.compression)
     implementation(libs.ktor.server.cachingheaders)
     implementation("net.perfectdreams.sequins.ktor:base-route:1.0.4")

@@ -11,7 +11,7 @@ dependencyResolutionManagement {
             library("kotlinx-coroutines-core", "org.jetbrains.kotlinx", "kotlinx-coroutines-core").version("1.6.1")
             library("kotlin-logging", "io.github.microutils", "kotlin-logging").version("2.1.21")
 
-            library("ktor-server-netty", "io.ktor", "ktor-server-netty").versionRef(ktor)
+            library("ktor-server-cio", "io.ktor", "ktor-server-cio").versionRef(ktor)
             library("ktor-server-compression", "io.ktor", "ktor-server-compression").versionRef(ktor)
             library("ktor-server-cachingheaders", "io.ktor", "ktor-server-caching-headers").versionRef(ktor)
 
