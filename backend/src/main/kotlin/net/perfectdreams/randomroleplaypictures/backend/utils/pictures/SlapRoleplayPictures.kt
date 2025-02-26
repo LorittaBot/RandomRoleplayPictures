@@ -41,6 +41,9 @@ object SlapRoleplayPictures : RoleplayPictures("slap") {
         picture("gif_194.gif", MaleXMaleGenderMatchType) {
             source = AnimeSource("Dragon Ball")
         }
+        picture("gif_cb94a548177a8180.gif", MaleXMaleGenderMatchType) {
+            source = AnimeSource("Dragon Ball Z")
+        }
 
         picture("gif_187.gif", MaleXFemaleGenderMatchType) {
             source = AnimeSource("Chuunibyou demo Koi ga Shitai!")
@@ -53,6 +56,9 @@ object SlapRoleplayPictures : RoleplayPictures("slap") {
         }
         picture("gif_190.gif", MaleXFemaleGenderMatchType) {
             source = AnimeSource("Boku wa Tomodachi ga Sukunai")
+        }
+        picture("gif_4f22db82bae87626.gif", MaleXFemaleGenderMatchType) {
+            source = AnimeSource("High School Of The Dead")
         }
 
         picture("gif_208.gif", FemaleXMaleGenderMatchType) {
@@ -93,6 +99,33 @@ object SlapRoleplayPictures : RoleplayPictures("slap") {
             source = AnimeSource("Nana")
         }
         picture("gif_221.gif", FemaleXMaleGenderMatchType)
+        picture("gif_7bcd719e429412ba.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Mawaru Penguindrum")
+        }
+        picture("gif_d5f2c8efe6961e72.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Ore no Imouto ga Konnani Kawaii Wake ga Nai")
+        }
+        picture("gif_b9f9dd726c637547.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Eromanga-sensei")
+        }
+        picture("gif_236fa365b1d7c98d.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Pokémon")
+        }
+        picture("gif_0c4e9be40999ae4a.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Seishun Buta Yarō wa Bunny Girl Senpai no Yume o Minai")
+        }
+        picture("gif_9ec39d3e6ce7aef7.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Chainsaw Man")
+        }
+        picture("gif_72154a7076b29d38.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Spy X Family")
+        }
+        picture("gif_4b2efc311eb35e12.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Kanon")
+        }
+        picture("gif_9b3aaf1a2b2b4f60.gif", FemaleXMaleGenderMatchType) {
+            source = AnimeSource("Barakamon")
+        }
 
         picture("gif_195.gif", FemaleXFemaleGenderMatchType) {
             source = AnimeSource("Shoujo Shuumatsu Ryokou")
@@ -129,6 +162,33 @@ object SlapRoleplayPictures : RoleplayPictures("slap") {
         }
         picture("gif_207.gif", FemaleXFemaleGenderMatchType) {
             source = AnimeSource("Love Lab")
+        }
+        picture("gif_208.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("K-ON!")
+        }
+        picture("gif_209.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("K-ON!")
+        }
+        picture("gif_210.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Kokoro Connect")
+        }
+        picture("gif_211.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Plastic Nee-san")
+        }
+        picture("gif_212.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Sora no method")
+        }
+        picture("gif_213.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Hitoribocchi no Marumaruseikatsu")
+        }
+        picture("gif_214.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Girls' Last Tour")
+        }
+        picture("gif_215.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Ore, Twintail ni Narimasu")
+        }
+        picture("gif_215.gif", FemaleXFemaleGenderMatchType) {
+            source = AnimeSource("Ore, Twintail ni Narimasu")
         }
     }
 }
