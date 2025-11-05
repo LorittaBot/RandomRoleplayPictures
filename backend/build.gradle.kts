@@ -33,6 +33,6 @@ jib {
     }
 
     from {
-        image = "openjdk:17-slim-bullseye"
+        image = "eclipse-temurin:25-jdk-noble"
     }
 }
