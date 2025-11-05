@@ -9,7 +9,7 @@ dependencies {
 
     implementation(libs.kotlinx.serialization.json)
 
-    implementation(libs.ktor.client.apache)
+    implementation(libs.ktor.client.java)
 }
 
 publishing {

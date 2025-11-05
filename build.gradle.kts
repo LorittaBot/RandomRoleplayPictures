@@ -5,7 +5,7 @@ plugins {
 
 allprojects {
     group = "net.perfectdreams.randomroleplaypictures"
-    version = "1.0.1"
+    version = "1.0.2"
 
     repositories {
         mavenCentral()

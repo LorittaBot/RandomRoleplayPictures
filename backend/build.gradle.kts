@@ -15,7 +15,7 @@ dependencies {
     implementation("net.perfectdreams.sequins.ktor:base-route:1.0.4")
 
     // Logging
-    api("ch.qos.logback:logback-classic:1.3.0-alpha14")
+    api("ch.qos.logback:logback-classic:1.5.20")
 }
 
 jib {

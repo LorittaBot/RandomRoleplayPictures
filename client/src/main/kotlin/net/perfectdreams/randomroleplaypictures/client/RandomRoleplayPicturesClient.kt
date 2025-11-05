@@ -1,10 +1,9 @@
 package net.perfectdreams.randomroleplaypictures.client
 
 import io.ktor.client.*
-import io.ktor.client.engine.apache.*
+import io.ktor.client.engine.java.Java
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import net.perfectdreams.randomroleplaypictures.common.Gender
 import net.perfectdreams.randomroleplaypictures.common.data.api.PictureResponse
@@ -13,7 +12,7 @@ import java.io.Closeable
 class RandomRoleplayPicturesClient(
     baseUrl: String
 ) : Closeable {
-    private val http = HttpClient(Apache) {}
+    private val http = HttpClient(Java) {}
 
     val baseUrl = baseUrl.removeSuffix("/") // Remove trailing slash
 
